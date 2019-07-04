@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php-di/php-di": "^6.0",
+        "firebase/php-jwt": "^5.0",
+        "league/plates": "^3.3",
+        "tracy/tracy": "^2.6",
+        "doctrine/cache": "^1.8",
+        "ext-json": "*",
+        "ocramius/proxy-manager": "~2.0"
+    }
+}

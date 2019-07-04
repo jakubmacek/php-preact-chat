@@ -1,0 +1,41 @@
+.message {
+  height: 28px;
+}
+.message.message--private {
+  font-style: italic;
+}
+.message.message--from-me {
+  font-weight: bold;
+  color: green;
+}
+.message.message--to-me {
+  font-weight: bold;
+  color: red;
+}
+.message.message--from-system {
+  font-size: 0.8em;
+  color: darkgreen;
+}
+.message.message--from-system .message__from {
+  display: none;
+}
+.message .message__timestamp {
+  display: inline-block;
+  text-align: right;
+  width: 8ex;
+  margin-right: 1ex;
+}
+.message .message__from {
+  margin-right: 1ex;
+}
+.message .message__text img {
+  max-height: 16px;
+}
+
+.smiley {
+  margin-right: 5px;
+}
+
+.user.user--sex-f a {
+  color: red;
+}
