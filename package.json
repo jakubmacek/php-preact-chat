@@ -2,7 +2,7 @@
   "name": "chat",
   "version": "0.0.1",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "preact": "^8.4.2"
   },
   "devDependencies": {
